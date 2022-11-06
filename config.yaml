@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://docs-demo.hasura.app
+admin_secret: PAQTI18N5qq3SEaE1BSRqtaIGf1fhqKxRtMn6c85VNK7L533AWbdz6lSrCMKuR1R
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
